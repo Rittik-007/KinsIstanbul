@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* navbar styles */
+.navbar{
+    padding: 10px 150px;
+    box-shadow: 0 0 30px gray;
+    background-color: white;
+}
+
+.logo a{
+    text-decoration: none;
+    font-family: "Pacifico", cursive;
+    font-style: normal;
+    color: rgb(24, 19, 19);
+}
+
+.nav-menu ul{
+    margin: 0; 
+    padding: 0; 
+    text-align: end;
+}
+.nav-menu ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 20px;
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    padding: 0 10px;
+    transition: 6ms all;
+}
+.nav-menu ul li a:hover{
+    border-bottom: 2px solid skyblue;
+}
+
+
+/* banner styles */
+.banner{
+    height: 70vh;
+    margin-top: 80px;
+    background: url(../images/banner-copy.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* food menu styles */
+.food-menu{
+    padding: 50px 0;
+}
+.food-menu-title{
+    padding: 30px 0 20px;
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(24, 19, 19);
+}
+.food-menu-title h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.card-box{
+    padding: 12px 0;
+    
+}
+.menu-card{
+    box-shadow: 0 0 20px silver;
+    border-radius: 8px;
+}
+.card-top{
+    overflow: hidden;
+}
+.card-top img{
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    transition: 0.3s ease-in-out;
+}
+.menu-card:hover .card-top img{
+    transform: scale(1.05);
+}
+
+.card-bottom{
+    padding: 20px 20px 40px;
+}
+.card-bottom h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: brown;
+}
+.rating{
+    padding: 10px 0;
+    padding-right: 10px;
+    text-align: end;
+}
+.card-bottom h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    padding-left: 4px;
+    font-weight: 400;
+}
+.card-bottom p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: gray;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#show1, #show2, #show3, #show4, #show5, #show6{
+    text-align: center;
+}
+button {
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    background-color: brown;
+    color: rgb(232, 150, 150);
+    padding: 7px 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 4px;
+    transition: 0.3s ease-in-out;
+}
+button:hover{
+    background-color: rgb(81, 7, 7);
+}  
+h5{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: brown;
+}
+/* food menu styles ends here */
+
+
+/* feedback styles */
+.review-section{
+    padding: 50px 150px;
+}
+.feedback-title{
+    padding: 20px 0  10px;
+    margin-bottom: 20px;
+}
+.feedback-title h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: rgb(24, 19, 19);
+}
+
+.review-box{
+    box-shadow: 0 0 10px silver;
+    border-radius: 7px;
+    padding: 25px 35px;
+    z-index: 0;
+    transition: 0.5s ease-in-out;
+}
+.review-box:hover{
+    z-index: 1;
+    transform: translate(40px, 0);
+}
+.client-profile{
+    display: flex;
+    gap: 10px;
+}
+.client-photo{
+    flex: 1;
+}
+.client-photo img{
+    width: 65%;
+    border-radius: 50%;
+}
+.client-name{
+    flex: 5; 
+    margin-left: -30px; 
+    margin-top: 5px;
+}
+.client-name p{
+    display: none;
+    margin-top: 5px;
+}
+.stars{
+    text-align: end;
+    color: orangered;
+    font-size: 20px;
+}
+
+.review-box p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    text-align: justify;
+}
+
+
+/* gallery section styles */
+.gallery-section{
+    padding: 50px 0;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    justify-content: center;
+}
+.gallery-title h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    color: brown;
+}
+.gallery-image{
+    padding: 5px;
+    overflow: hidden;
+}
+.gallery-image img{
+    width: 100%;
+    border-radius: 7px;
+}
+
+/* footer styles */
+.bottom-logo img{
+    background-color: white;
+    width: 70px;
+    margin-top: -36px;
+    border: 3px solid gray;
+    border-radius: 50%;
+}
+.footer{
+    padding-bottom: 25px;
+}
+.footer h4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 25px;
+}
+.footer p{
+    font-size: 14px;
+    color: gray;
+    margin-top: -5px;
+}
+.social{
+    display: inline-block;
+}
+.social a{
+    text-decoration: none;
+    color: gray;
+    padding: 0;
+}
+.social i{
+    font-size: 20px;
+    padding: 5px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .navbar{
+        padding: 10px;
+    }
+    .logo h1{
+        text-align: center;
+    }
+    .nav-menu ul{
+        margin-top: 10px;
+        text-align: center;
+    }
+    .nav-menu ul li{
+        margin-left: 5px;
+    }
+    .nav-menu ul li a{
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    .food-menu-title h3{
+        font-size: 35px;
+    }
+    .menu-card{
+        border-radius: 7px;
+    }
+    .card-top img{
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+    }
+
+    .review-section{
+        padding: 50px 10px;
+    }
+    .review-box{
+        padding: 20px;
+    }
+    .review-box:hover{
+        transform: translate(0, 0);
+    }
+    .feedback-title h2{
+        font-size: 30px;
+    }
+    .client-photo{
+        flex: 2;
+    }
+    .client-name{
+        flex: 3; 
+    }
+    .client-name p{
+        display: contents;
+    }
+    .stars{
+        display: none;
+    }
+    .review-box p{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .navbar{
+        padding: 10px;
+    }
+    .nav-menu ul li a{
+        padding: 5px;
+        font-size: 22px;
+    }
+    .menu-card{
+        border-radius: 7px;
+    }
+    .card-top img{
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+    }
+    .card-bottom h2{
+        font-size: 26px;
+    }
+
+    .review-section{
+        padding: 50px 10px;
+    }
+    .feedback-title h2{
+        font-size: 35px;
+    }
+    .review-box{
+        padding: 25px;
+    }
+    .client-photo{
+        flex: 1;
+    }
+    .client-name{
+        flex: 3; 
+    }
+}

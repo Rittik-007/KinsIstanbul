@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <!-- nav section -->
+    <nav class="container-fluid main" style="position: fixed; top: 0; z-index: 99;">
+        <div class="row navbar">
+            <div class="col-sm-12 col-md-4 col-lg-6">
+                <div class="logo">
+                    <a href="#"><h1 style="margin: 0; font-size: 50px;">kins!</h1></a>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-8 col-lg-6">
+                <div class="nav-menu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- banner section -->
+    <div class="banner-section">
+        <div class="banner">
+            
+        </div>
+    </div>
+
+
+    <!-- food menu section -->
+    <div class="container">
+        <div class="row food-menu">
+            <div class="col-12">
+                <div class="food-menu-title">
+                    <h3>Our <span style="color: #d80032;">Menu</span></h3>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card-box">
+                    <div class="menu-card">
+                        <div class="card-top">
+                            <img src="images/burger.jpg" alt="">
+                        </div>
+                        <div class="card-bottom">
+                            <div class="row">
+                                <div class="col-8 food-name"><h2>Chicken Burger</h2></div>
+                                <div class="col-4 g-0 rating"><h4><i class="bi bi-star-fill" style="color: orangered;"></i> 4.4 (100+)</h4></div>
+                            </div>
+                            <p>This is our most popular and demanding item. It is prepared with hot chicks and fresh vegis. Our chef's special mionese is more famous than us.</p>
+                            <div id="show1"><button id="btn" onclick="reply1()">Add to cart</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card-box">
+                    <div class="menu-card">
+                        <div class="card-top">
+                            <img src="images/pizza.jpg" alt="">
+                        </div>
+                        <div class="card-bottom">
+                            <div class="row">
+                                <div class="col-8 food-name"><h2>Mexican Pizza</h2></div>
+                                <div class="col-4 g-0 rating"><h4><i class="bi bi-star-fill" style="color: orangered;"></i> 4.4 (100+)</h4></div>
+                            </div>
+                            <p>This is our most popular and demanding item. It is prepared with hot chicks and fresh vegis. Our chef's special mionese is more famous than us.</p>
+                            <div id="show2"><button id="btn" onclick="reply2()">Add to cart</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card-box">
+                    <div class="menu-card">
+                        <div class="card-top">
+                            <img src="images/sandwich.jpg" alt="">
+                        </div>
+                        <div class="card-bottom">
+                            <div class="row">
+                                <div class="col-8 food-name"><h2>Sub SandWich</h2></div>
+                                <div class="col-4 g-0 rating"><h4><i class="bi bi-star-fill" style="color: orangered;"></i> 4.4 (100+)</h4></div>
+                            </div>
+                            <p>This is our most popular and demanding item. It is prepared with hot chicks and fresh vegis. Our chef's special mionese is more famous than us.</p>                            
+                            <div id="show3"><button id="btn" onclick="reply3()">Add to cart</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card-box">
+                    <div class="menu-card">
+                        <div class="card-top">
+                            <img src="images/pasta.jpg" alt="">
+                        </div>
+                        <div class="card-bottom">
+                            <div class="row">
+                                <div class="col-8 food-name"><h2>Pasta Basta</h2></div>
+                                <div class="col-4 g-0 rating"><h4><i class="bi bi-star-fill" style="color: orangered;"></i> 4.4 (100+)</h4></div>
+                            </div>
+                            <p>This is our most popular and demanding item. It is prepared with hot chicks and fresh vegis. Our chef's special mionese is more famous than us.</p>                            
+                            <div id="show4"><button id="btn" onclick="reply4()">Add to cart</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card-box">
+                    <div class="menu-card">
+                        <div class="card-top">
+                            <img src="images/tacos.jpg" alt="">
+                        </div>
+                        <div class="card-bottom">
+                            <div class="row">
+                                <div class="col-8 food-name"><h2>Mexican Tacos</h2></div>
+                                <div class="col-4 g-0 rating"><h4><i class="bi bi-star-fill" style="color: orangered;"></i> 4.4 (100+)</h4></div>
+                            </div>
+                            <p>This is our most popular and demanding item. It is prepared with hot chicks and fresh vegis. Our chef's special mionese is more famous than us.</p>                            
+                            <div id="show5"><button id="btn" onclick="reply5()">Add to cart</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card-box">
+                    <div class="menu-card">
+                        <div class="card-top">
+                            <img src="images/wonton.jpg" alt="">
+                        </div>
+                        <div class="card-bottom">
+                            <div class="row">
+                                <div class="col-8 food-name"><h2>Wonton</h2></div>
+                                <div class="col-4 g-0 rating"><h4><i class="bi bi-star-fill" style="color: orangered;"></i> 4.4 (100+)</h4></div>
+                            </div>
+                            <p>This is our most popular and demanding item. It is prepared with hot chicks and fresh vegis. Our chef's special mionese is more famous than us.</p>                            
+                            <div id="show6"><button id="btn" onclick="reply6()">Add to cart</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  <!-- food menu ends here-->
+
+
+    <!-- feedback section -->
+    <div class="container">
+        <div class="row review-section">
+
+            <div class="col-12">
+                <div class="feedback-title">
+                    <h2>Customer Says....</h2>
+                </div>
+            </div>
+            <div class="col-12" style="padding: 15px 10px;">
+                <div class="review-box">
+                    <div class="row" style="margin-bottom: 30px;">
+                        <div class="col-sm-12 col-md-8 client-profile">
+                            <div class="client-photo"><img src="images/man.jpg" alt=""></div>
+                            <div class="client-name">
+                                <h4 style="margin: 0; font-size: 25px;">Justin Trudeu</h4>
+                                <h6 style="margin: 0; color: silver;">@justinmartin</h6>
+                                <p><i class="bi bi-star-fill" style="color: orange;"></i> 4.5</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4 stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem reiciendis ipsum nisi reprehenderit laudantium perferendis, deserunt labore tenetur pariatur illo omnis dolorum quam similique nobis neque sint modi cum beatae.</p>
+                </div>
+            </div>
+
+            <div class="col-12" style="padding: 15px 10px;">
+                <div class="review-box">
+                    <div class="row" style="margin-bottom: 30px;">
+                        <div class="col-sm-12 col-md-8 client-profile">
+                            <div class="client-photo"><img src="images/man.jpg" alt=""></div>
+                            <div class="client-name">
+                                <h4 style="margin: 0; font-size: 25px;">Justin Trudeu</h4>
+                                <h6 style="margin: 0; color: silver;">@justinmartin</h6>
+                                <p><i class="bi bi-star-fill" style="color: orange;"></i> 4.5</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4 stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem reiciendis ipsum nisi reprehenderit laudantium perferendis, deserunt labore tenetur pariatur illo omnis dolorum quam similique nobis neque sint modi cum beatae.</p>
+                </div>
+            </div>
+
+            <div class="col-12" style="padding: 15px 10px;">
+                <div class="review-box">
+                    <div class="row" style="margin-bottom: 30px;">
+                        <div class="col-sm-12 col-md-8 client-profile">
+                            <div class="client-photo"><img src="images/man.jpg" alt=""></div>
+                            <div class="client-name">
+                                <h4 style="margin: 0; font-size: 25px;">Justin Trudeu</h4>
+                                <h6 style="margin: 0; color: silver;">@justinmartin</h6>
+                                <p><i class="bi bi-star-fill" style="color: orange;"></i> 4.5</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4 stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem reiciendis ipsum nisi reprehenderit laudantium perferendis, deserunt labore tenetur pariatur illo omnis dolorum quam similique nobis neque sint modi cum beatae.</p>
+                </div>
+            </div>
+
+            <div class="col-12" style="padding: 15px 10px;">
+                <div class="review-box">
+                    <div class="row" style="margin-bottom: 30px;">
+                        <div class="col-sm-12 col-md-8 client-profile">
+                            <div class="client-photo"><img src="images/man.jpg" alt=""></div>
+                            <div class="client-name">
+                                <h4 style="margin: 0; font-size: 25px;">Justin Trudeu</h4>
+                                <h6 style="margin: 0; color: silver;">@justinmartin</h6>
+                                <p><i class="bi bi-star-fill" style="color: orange;"></i> 4.5</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4 stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem reiciendis ipsum nisi reprehenderit laudantium perferendis, deserunt labore tenetur pariatur illo omnis dolorum quam similique nobis neque sint modi cum beatae.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- gallery section -->
+    <div class="container">
+        <div class="row gallery-section">
+
+            <div class="col-12 gallery-title">
+                <h3>gallery</h3>
+            </div>
+
+            <div class="col-sm-6 col-md-3" style="padding: 0;">
+                <div class="gallery-image">
+                    <img src="images/pizza.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3" style="padding: 0;">
+                <div class="gallery-image">
+                    <img src="images/pasta.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3" style="padding: 0;">
+                <div class="gallery-image">
+                    <img src="images/burger.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3" style="padding: 0;">
+                <div class="gallery-image">
+                    <img src="images/tacos.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3" style="padding: 0;">
+                <div class="gallery-image">
+                    <img src="images/sandwich.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3" style="padding: 0;">
+                <div class="gallery-image">
+                    <img src="images/wonton.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer section -->
+    <div class="container-fluid" style="border-top: 2px solid gray;">
+        <div class="row" style="text-align: center;">
+            <div class="col-12 footer">
+                <div class="bottom-logo"><img src="images/logo-2.png" alt=""></div>
+                <h4>Kins Istanbul</h4>
+                <p><i>Copyright <i class="bi bi-c-circle"></i> 2024 All rights reserved by <b>Rittik</b></p></i>
+                <div class="row social">
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>

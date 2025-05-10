@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* navbar styles */
+.navbar{
+    padding: 10px 150px;
+    box-shadow: 0 0 30px gray;
+    background-color: white;
+}
+
+.logo a{
+    text-decoration: none;
+    font-family: "Pacifico", cursive;
+    font-style: normal;
+    color: rgb(24, 19, 19);
+}
+
+.nav-menu ul{
+    margin: 0; 
+    padding: 0; 
+    text-align: end;
+}
+.nav-menu ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 20px;
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    padding: 0 10px;
+    transition: 6ms all;
+}
+.nav-menu ul li a:hover{
+    border-bottom: 2px solid skyblue;
+}
+
+
+@media (max-width: 500px){
+    .navbar-container input[type="checkbox"]:checked ~ .logo{
+        display: none;
+    }
+}
+
+  
+  .faq-section {
+    max-width: 760px;
+    margin: 150px auto;
+  }
+  
+  header {
+    margin-bottom: 100px;
+  }
+  
+  header > p {
+    font-size: 22px;
+    color: #272a2e;
+  }
+  
+  h2 {
+    font-size: 52px;
+    color: #272a2e;
+    margin-top: 40px;
+    font-weight: bold;
+  }
+  
+  details {
+    cursor: pointer;
+  }
+  
+  summary:focus-visible {
+    outline: 2px solid orange;
+    outline-offset: 8px;
+    border-radius: 4px;
+  }
+  
+  summary h4 {
+    width: 760px;
+  }
+  
+  summary {
+    font-size: 20px;
+    color: #272a2e;
+    display: flex;
+    justify-item: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+  }
+  
+  summary::marker {
+    display: none;
+    content: "";
+  }
+  
+  span {
+    margin-top: 4px;
+    color: #000000;
+  }
+  
+  details > p {
+    max-width: 650px;
+    color: #272a2e;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 155%;
+    letter-spacing: .1px;
+    margin-bottom: 40px;
+    padding-left: 10px;
+  }
+  
+  hr {
+    border: 1px solid #000000;
+    margin-block-end: 30px;
+  }
+
+
+/* footer styles */
+.bottom-logo img{
+    background-color: white;
+    width: 70px;
+    margin-top: -36px;
+    border: 3px solid gray;
+    border-radius: 50%;
+}
+.footer{
+    padding-bottom: 25px;
+}
+.footer h4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 25px;
+}
+.footer p{
+    font-size: 14px;
+    color: gray;
+    margin-top: -5px;
+}
+.social{
+    display: inline-block;
+}
+.social a{
+    text-decoration: none;
+    color: gray;
+    padding: 0;
+}
+.social i{
+    font-size: 20px;
+    padding: 5px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .navbar{
+        padding: 10px;
+    }
+    .logo h1{
+        text-align: center;
+    }
+    .nav-menu ul{
+        margin-top: 10px;
+        text-align: center;
+    }
+    .nav-menu ul li{
+        margin-left: 5px;
+    }
+    .nav-menu ul li a{
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    .faq-section {
+        padding: 20px;
+        margin-bottom: 50px;
+    }
+    header {
+        margin-bottom: 50px;
+      }
+    header > p {
+        font-size: 16px;
+    }
+    
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .navbar{
+        padding: 10px;
+    }
+    .nav-menu ul li a{
+        padding: 5px;
+        font-size: 22px;
+    }
+    
+    .faq-section {
+        padding: 40px;
+        margin-bottom: 50px;
+    }
+    header {
+        margin-bottom: 50px;
+      }
+    header > p {
+        font-size: 16px;
+    }
+
+}
