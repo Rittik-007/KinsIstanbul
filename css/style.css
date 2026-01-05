@@ -145,16 +145,15 @@ h5{
 }
 
 .menu-button{
-    padding: 50px 0 20px;
+    padding: 70px 0 20px;
     text-align: end;
 }
 .menu-button a{
     text-decoration: none;
     text-align: center;
-    background-color: rgb(24, 66, 180);
-    color: beige;
-    margin-top: 30px;
-    padding: 7px 35px;
+    background-color: rgb(232, 150, 150);
+    color: rgb(158, 41, 41);
+    padding: 7px 35px 9px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 25px;
     font-weight: 700;
@@ -162,7 +161,7 @@ h5{
     transition: 0.3s ease-in-out;
 }
 .menu-button a:hover{
-    background-color: rgb(34, 54, 110);
+    background-color: rgb(255, 200, 200);
 }
 /* food menu styles ends here */
 

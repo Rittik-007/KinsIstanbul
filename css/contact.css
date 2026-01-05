@@ -74,7 +74,7 @@
 .form-box input{
     outline: none;
     border: none;
-    border-bottom: 1px solid silver;
+    border-bottom: 2px solid silver;
     padding: 5px 10px;
     font-size: 17px;
     margin-bottom: 10px;
@@ -86,14 +86,16 @@
 #typingbox{
     outline: none;
     border: none;
-    border-bottom: 1px solid silver;
+    border: 2px solid silver;
+    border-radius: 4px;
     padding: 5px 10px;
     font-size: 16px;
+    margin-top: 10px;
     margin-bottom: 20px;
     transition: 0.2s ease-in;
 }
 #typingbox:focus{
-    border-bottom: 2px solid rgb(36, 6, 146);
+    border: 2px solid rgb(36, 6, 146);
 }
 
 .submit-button{
@@ -141,7 +143,7 @@
 
 
 .layer{
-    height: 500px;
+    height: 524px;
     width: auto;
     background: linear-gradient(to top right, #1325e8 -5%, #8f10b7 100%);
 }
