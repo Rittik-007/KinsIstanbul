@@ -88,7 +88,7 @@
     font-size: 20px;
     color: #272a2e;
     display: flex;
-    justify-item: space-between;
+    justify-items: space-between;
     align-items: center;
     margin-bottom: 25px;
   }
