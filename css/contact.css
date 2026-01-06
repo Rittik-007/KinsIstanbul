@@ -37,9 +37,9 @@
     padding: 0 10px;
     transition: 6ms all;
 }
-.nav-menu ul li a:hover{
+/* .nav-menu ul li a:hover{
     border-bottom: 2px solid skyblue;
-}
+} */
 
 /* form styles */
 .main{
